@@ -1,0 +1,93 @@
+$backgroundColor: #1abc9c;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $backgroundColor;
+    font-family: 'Roboto Slab', serif;
+}
+
+.wrapper {
+    margin-top: 100px; 
+    width: 600px;
+    height: auto;
+    background-color: white;
+    
+    h1 {
+        font-weight: bold;
+        color: $backgroundColor;
+        transition: 0.5s;
+    }
+     
+    h1:hover {
+            transform: scale(1.1);
+    }
+}
+
+.btn-success {
+    background-color: $backgroundColor;
+    transition: 0.5s;
+    border-color: $backgroundColor !important;
+    
+    
+}
+
+.btn-success:hover {
+        background-color: #148770;
+        transform: scale(1.1);
+        border-color: #148770 !important;
+}
+
+.btn-success:focus {
+    outline: none !important;
+    background-color: #148770 !important;
+    border-color: #148770 !important;
+}
+
+.btn-success:active {
+    outline: none !important;
+    background-color: #148770 !important;
+    border-color: #148770 !important;
+    
+}
+
+.task-input {
+    border-color: $backgroundColor;
+    border-width: 2px;
+}
+
+.input-block {
+    margin-bottom: 10px;
+}
+
+.panel {
+    border-color: $backgroundColor;
+    position: relative;
+    transition: 0.3s;
+    
+}
+
+.panel-body {
+    width: 470px;
+}
+
+.panel:hover {
+    transform: scale(1.02);
+}
+
+.btns {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    
+}
+
+.task-done {
+    background-color: gray;
+    text-decoration: line-through;
+    border-color: gray;
+}
